@@ -1,7 +1,6 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:get/get.dart';
 
-GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 final double screenWidth = Get.context!.width;//360
 final double screenHeight = Get.context!.height;// 736
 final double dimen10 = screenHeight / 73.6;

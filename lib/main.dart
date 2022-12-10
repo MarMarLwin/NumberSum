@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mini/controller/number_sum_controller.dart';
 import 'package:flutter_mini/screens/home_screen.dart';
 import 'package:flutter_mini/utils/colors.dart';
-import 'package:flutter_mini/utils/dimensions.dart';
 import 'package:flutter_mini/utils/routes.dart';
 import 'package:get/get.dart';
 
@@ -20,8 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
-      navigatorKey: navigatorKey,
+      title: 'Flutter Mini',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
